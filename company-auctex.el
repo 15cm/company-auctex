@@ -35,7 +35,7 @@
 (require 'yasnippet)
 (eval-when-compile (require 'cl-lib))
 
-(defvar company-auctex-arg-lookup-table
+(defcustom company-auctex-arg-lookup-table
   '((TeX-arg-define-macro . ("\\MacroName"))
     (TeX-arg-counter . ("Counter"))
     (TeX-arg-define-counter . ("\\CounterName"))
